@@ -1,1 +1,1 @@
-# RMP
+# Random Music Play
