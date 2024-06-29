@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="button-group" id="category-buttons">
+      <button class="categoryButton" data-category="randomall">
+        전체 랜덤
+      </button>
+      <button class="categoryButton" data-category="animals">동물</button>
+      <button class="categoryButton" data-category="celebrities">연예인</button>
+    </div>
+    <div class="button-group" id="count-buttons" style="display: none">
+      <button class="selectButton" data-count="5">5회</button>
+      <button class="selectButton" data-count="10">10회</button>
+      <button class="selectButton" data-count="15">15회</button>
+    </div>
+    <div class="word-display"></div>
+    <div class="timer-display"></div>
+    <div class="button-group">
+      <button id="nextButton" style="display: none">다음</button>
+      <button id="showAnswerButton" style="display: none">정답보기</button>
+      <button id="restartButton" style="display: none">처음으로</button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="answerText"></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/add.js"></script>
+  <body></body>
+</html>
