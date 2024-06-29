@@ -7,7 +7,7 @@ const categories = {
       "노바",
       "쏟아지는",
       "해야",
-      "빵을",
+      "평온했던",
       "첫 만남",
       "BOOM",
       "저_거위도",
@@ -39,7 +39,7 @@ const categories = {
       노바: "에스파 - Supernova",
       쏟아지는: "QWER - 고민중독 / 트와이스 - Dance The Night Away",
       해야: "IVE - 해야",
-      빵을: "아이들 - 나는 아픈건 딱 질색이니까",
+      평온했던: "아이들 - 나는 아픈건 딱 질색이니까",
       첫만남: "TWS - 첫 만남은 계획대로 되지 않아",
       BOOM: "RIIZE - Boom Boom base / 르세라핌 - 이브 프시케 ...",
       저_거위도: "악뮤 - 후라이의 꿈",
@@ -106,14 +106,14 @@ function showRandomWord() {
   displayCount++;
 
   let timeLeft = 3;
-  timerDisplay.textContent = `타이머: ${timeLeft}`;
+  timerDisplay.textContent = `Timer: ${timeLeft}`;
 
   nextButton.disabled = true; // 다음 버튼을 일단 비활성화
 
   const timerInterval = setInterval(() => {
     timeLeft--;
     if (timeLeft > 0) {
-      timerDisplay.textContent = `타이머: ${timeLeft}`;
+      timerDisplay.textContent = `Timer: ${timeLeft}`;
     } else {
       clearInterval(timerInterval);
       wordDisplay.textContent = "";
