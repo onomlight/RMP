@@ -6,12 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <div class="button-group" id="category-buttons">
+ <body>
+    <div class="header" id="starthear">
+      <h3>이영지가 개발한</h3>
+      <h1>릴레이 베개 노래방</h1>
+      <h5>을 보고 만든 게임</h5>
+    </div>
+    <div class="button-group mainbtn" id="category-buttons">
       <button class="categoryButton" data-category="randomall">
-        전체 랜덤
+        <p class="btn_set">전체 랜덤</p>
       </button>
-     
     </div>
     <div class="button-group" id="count-buttons" style="display: none">
       <button class="selectButton" data-count="5">5회</button>
@@ -32,7 +36,26 @@
         <p id="answerText"></p>
       </div>
     </div>
+
+    <div id="introModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="introClose">&times;</span>
+        <div class="slide-container">
+          <div class="slide"><img src="image1.jpg" alt="Image 1" /></div>
+          <div class="slide"><img src="image2.jpg" alt="Image 2" /></div>
+          <div class="slide"><img src="image3.jpg" alt="Image 3" /></div>
+          <div class="slide"><img src="image4.jpg" alt="Image 4" /></div>
+        </div>
+        <div class="slider-nav">
+          <button id="prevSlide">Previous</button>
+          <button id="nextSlide">Next</button>
+        </div>
+        <button id="dontShowToday">오늘 그만보기</button>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/introModal.js"></script>
   </body>
-  <script src="js/add.js"></script>
-  <body></body>
 </html>
