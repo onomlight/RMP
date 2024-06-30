@@ -7,6 +7,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .word-display {
   font-size: 2em;
   margin-bottom: 20px;
@@ -16,9 +21,29 @@ body {
   color: red;
   margin-bottom: 20px;
 }
-.button-group {
+
+/* 버튼 UI */
+
+.mainbtn {
   margin-bottom: 20px;
+  width: 12rem;
+  height: 5rem;
 }
+.btn_set {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+}
+#category-buttons {
+}
+.categoryButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 1px solid;
+  border-radius: 5rem;
+}
+
 button {
   padding: 10px 20px;
   font-size: 1em;
@@ -35,6 +60,7 @@ button {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
+  align-content: center;
 }
 .modal-content {
   background-color: #fefefe;
@@ -56,4 +82,101 @@ button {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-nav {
+  text-align: center;
+}
+
+.slider-nav button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-nav {
+  text-align: center;
+}
+
+.slider-nav button {
+  margin: 0 5px;
+  padding: 5px 10px;
 }
