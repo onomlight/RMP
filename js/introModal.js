@@ -17,8 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       currentSlideIndex = index;
     }
-
-    slideContainer.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 
   prevSlideButton.addEventListener("click", () => {
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   dontShowTodayButton.addEventListener("click", () => {
     introModal.style.display = "none";
-   
   });
 
   // 페이지 로드 시 introModal 표시
