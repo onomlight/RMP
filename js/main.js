@@ -61,7 +61,8 @@ categoryButtonsGroup.addEventListener("click", (event) => {
     if (categoryButton) {
       const category = categoryButton.getAttribute("data-category");
       selectedCategory = categories[category];
-      countButtonsGroup.style.display = "block";
+      countButtonsGroup.style.display = "flex";
+      countButtonsGroup.style.flexDirection = "column";
       categoryButtonsGroup.style.display = "none";
       disnone.style.display = "none";
       wordDisplay.textContent = "";
