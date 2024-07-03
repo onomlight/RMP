@@ -51,6 +51,7 @@ function showRandomWord() {
       clearInterval(timerInterval);
       timerDisplay.textContent = "";
       nextButton.disabled = false; // 타이머가 종료된 후에 다음 버튼을 활성화
+      wordDisplay.style.display = "none";
     }
   }, 1000);
 }
