@@ -94,6 +94,7 @@ selectButtons.forEach((button) => {
 showAnswerButton.addEventListener("click", () => {
   answerText.textContent = `정답: ${selectedCategory.translations[currentWord]}`;
   modal.style.display = "block";
+  modal.style.padding = "0";
 });
 
 span.addEventListener("click", () => {
