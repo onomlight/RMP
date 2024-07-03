@@ -417,6 +417,11 @@ a {
 #dontShowToday {
   display: none;
 }
+#selbut {
+  width: 10rem;
+  height: 5rem;
+  margin: 1rem;
+}
 @media screen and (max-width: 440px) {
   .slide > img {
     height: 100%;
