@@ -444,7 +444,7 @@ a {
   color: black;
 }
 .word-display {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 /* 노트북 & 태블릿 가로 (해상도 1024px ~ 1279px)*/
@@ -485,6 +485,9 @@ a {
   }
   #nextButton {
     width: 20vh;
+  }
+  .word-display {
+    font-size: 5rem;
   }
 }
 
