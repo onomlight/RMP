@@ -443,6 +443,9 @@ a {
 .button-group > button {
   color: black;
 }
+.word-display {
+  font-size: 5rem;
+}
 
 /* 노트북 & 태블릿 가로 (해상도 1024px ~ 1279px)*/
 @media all and (min-width: 1024px) and (max-width: 1279px) {
@@ -476,6 +479,12 @@ a {
   }
   .button-group > button {
     color: black;
+    width: 25vh;
+    height: 10vh;
+    margin-right: 1.2rem;
+  }
+  #nextButton {
+    width: 20vh;
   }
 }
 
