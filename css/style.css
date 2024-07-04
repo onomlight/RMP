@@ -54,6 +54,7 @@ button {
   margin: 5px;
   background-color: #ffe819;
   border-radius: 5rem;
+  border: none;
 }
 .modal {
   display: none;
