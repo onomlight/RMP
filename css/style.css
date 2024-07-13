@@ -418,12 +418,12 @@ a {
 }
 #prevSlide {
   position: fixed;
-  right: 25rem;
+  right: 55vh;
   top: 45vh;
 }
 #nextSlide {
   position: fixed;
-  left: 25rem;
+  left: 55vh;
   top: 45vh;
 }
 
@@ -462,12 +462,12 @@ a {
 @media all and (min-width: 1024px) and (max-width: 1279px) {
   #prevSlide {
     position: fixed;
-    right: 15rem;
+    right: 40vh;
     top: 45vh;
   }
   #nextSlide {
     position: fixed;
-    left: 15rem;
+    left: 40vh;
     top: 45vh;
   }
 }
@@ -524,12 +524,14 @@ a {
 
   #prevSlide {
     position: fixed;
-    right: 2.5rem;
+    right: 1.5rem;
     top: 45vh;
+    padding: 0;
   }
   #nextSlide {
     position: fixed;
     left: 1.5rem;
     top: 45vh;
+    padding: 0;
   }
 }
