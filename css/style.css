@@ -418,12 +418,12 @@ a {
 }
 #prevSlide {
   position: fixed;
-  right: 55vh;
+  right: 31%;
   top: 45vh;
 }
 #nextSlide {
   position: fixed;
-  left: 55vh;
+  left: 31%;
   top: 45vh;
 }
 
